@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@/libs/utils/utils";
+import { cn } from "@/libs/utils";
 import React, { useState } from "react";
 
 const data = [

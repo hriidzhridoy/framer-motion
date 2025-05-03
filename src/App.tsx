@@ -1,9 +1,11 @@
-import { AvatarListDemo } from "./components/ui/Avatar";
+import FirstPage from "./pages/FirstPage";
+import SecondPage from "./pages/SecondPage";
 
 export default function App() {
   return (
-    <div className="flex justify-center items-center bg-black/190 h-screen">
-      <AvatarListDemo />
+    <div>
+      <FirstPage />
+      <SecondPage />
     </div>
   );
 }
