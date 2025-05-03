@@ -1,12 +1,11 @@
-import WaterRippleEffect from "./components/ui/wripple-effect";
 import FirstPage from "./pages/FirstPage";
 import SecondPage from "./pages/SecondPage";
 
 export default function App() {
   return (
     <div>
-      <div className="relative w-full h-[800px] rounded-lg flex items-center justify-center overflow-hidden">
-        {/* <WaterRippleEffect
+      {/* <div className="relative w-full h-[800px] rounded-lg flex items-center justify-center overflow-hidden"> */}
+      {/* <WaterRippleEffect
           waveSpeedX={0.02}
           waveSpeedY={0.01}
           waveAmpX={50}
@@ -19,9 +18,9 @@ export default function App() {
           }}
         />
         <div className="relative z-10 mx-auto px-4 md:px-6 text-center text-white"> */}
-        <FirstPage />
-        {/* </div> */}
-      </div>
+      <FirstPage />
+      {/* </div> */}
+      {/* </div> */}
 
       <SecondPage />
     </div>
