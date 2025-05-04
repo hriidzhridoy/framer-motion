@@ -5,7 +5,7 @@ import { useScroll, useTransform, motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Lenis from "lenis";
 
-export default function Home() {
+export default function ThirdPage() {
   const container = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: container,
@@ -51,7 +51,7 @@ const Section1 = ({ scrollYProgress }: SectionProps) => {
       <p>Scroll Perspective</p>
       <div className="flex gap-4">
         <p>Section</p>
-        <div className="relative w-[12.5vw]">
+        <div className="relative w-[42.5vw]">
           <img
             src={Pic1}
             alt="img"
