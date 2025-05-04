@@ -22,7 +22,7 @@ const CustomButton = () => {
   };
 
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="flex items-center justify-center h-screen">
       <button
         className={cn(buttonVariants(), "w-[50px]  ml-2")}
         onClick={handleConfetti5}

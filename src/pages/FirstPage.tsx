@@ -1,11 +1,17 @@
 import RevealBento from "@/components/page-components/MyOverview";
+import { Cover } from "@/components/ui/cover";
 import CustomButton from "@/components/written/ConfettiButton";
 
 export default function FirstPage() {
   return (
-    <div className="">
-      {/* <CustomButton /> */}
-      <RevealBento />
+    <div className="bg-black">
+      <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center h-screen relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white ">
+        Build amazing websites <br /> at <Cover>warp speed</Cover>
+      </h1>
+
+      <div className="max-w-7xl mx-auto text-center h-screen relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white ">
+        <CustomButton />
+      </div>
     </div>
   );
 }
