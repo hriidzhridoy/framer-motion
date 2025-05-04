@@ -1,5 +1,6 @@
 import FirstPage from "./pages/FirstPage";
 import SecondPage from "./pages/SecondPage";
+import ThirdPage from "./pages/ThirdPage";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
       {/* </div> */}
 
       <SecondPage />
+      <ThirdPage />
     </div>
   );
 }
